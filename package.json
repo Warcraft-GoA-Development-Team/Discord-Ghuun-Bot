@@ -1,0 +1,31 @@
+{
+  "name": "discord-ghuun-bot",
+  "version": "3.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Warcraft-GoA-Development-Team/Discord-Ghuun-Bot.git"
+  },
+  "author": "DukeJeans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Warcraft-GoA-Development-Team/Discord-Ghuun-Bot/issues"
+  },
+  "homepage": "https://github.com/Warcraft-GoA-Development-Team/Discord-Ghuun-Bot#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "prettier": "^1.19.1"
+  }
+}
