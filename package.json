@@ -5,7 +5,7 @@
   "main": "js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --inspect js/index.js"
+    "start": "nodemon --inspect js/index.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
-    "discord.js": "^12.1.1"
+    "discord.js": "^12.1.1",
+    "nodemon": "^2.0.3"
   }
 }
