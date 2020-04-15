@@ -1,4 +1,4 @@
 cron:
 - description: "minute ping"
-  url: https://ghuun-bot.ue.r.appspot.com/
+  url: /tasks
   schedule: every 1 mins
