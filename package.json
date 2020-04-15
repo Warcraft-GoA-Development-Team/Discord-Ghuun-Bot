@@ -5,7 +5,7 @@
   "main": "js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node js/index.js"
+    "start": "nodemon --inspect js/index.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,10 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
     "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^4.7.0",
+    "discord.js": "^12.1.1",
+    "nodemon": "^2.0.3"
   }
 }
