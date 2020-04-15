@@ -1,0 +1,10 @@
+indexes:
+
+- kind: Faithful
+  ancestor: no
+  properties:
+  - name: userId
+  - name: favor
+    direction: desc
+  - name: isBeloved
+    direction: desc

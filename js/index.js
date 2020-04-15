@@ -2,6 +2,7 @@ const DISCORD = require('discord.js');
 const UTILITIES = require('./utility.js');
 const TOKEN = require('../tokens/token');
 const MEDIA = require('./media-service.js');
+const { Datastore } = require('@google-cloud/datastore');
 const CLIENT = new DISCORD.Client();
 
 GENERAL_CHANNEL = null;
