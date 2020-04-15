@@ -9,19 +9,22 @@ MULTIPLAYER_CHANNEL = null;
 DEBUG_CHANNEL = null;
 
 CLIENT.login(TOKEN.token);
-
+/*
 CLIENT.on("guildMemberAdd", member => {
   greetMember(member);
 });
 
+
 CLIENT.on('guildMemberRemove', (member) => {
   consumeMember(member);
 });
+*/
 
 CLIENT.on('message', (message) => { //Command Listener
   processCommand(message);
 });
 
+/*
 function consumeMember(member) {
   GENERAL_CHANNEL.send(`*consumes the soul of ${member.displayName}*`)
 }
@@ -45,6 +48,7 @@ function greetMember(member) {
       GENERAL_CHANNEL.send(MEDIA.whip); break;
   }
 }
+*/
 
 function processCommand(message) {
   console.log("here");
