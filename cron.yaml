@@ -1,0 +1,4 @@
+cron:
+- description: "minute ping"
+  url: /tasks
+  schedule: every 1 mins
