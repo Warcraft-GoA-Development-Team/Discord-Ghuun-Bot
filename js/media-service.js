@@ -11,4 +11,5 @@ exports.ghuun3 = new MessageAttachment('./images/ghuun3.png');
 exports.ghuun4 = new MessageAttachment('./images/ghuun4.png');
 exports.ghuun5 = new MessageAttachment('./images/ghuun5.png');
 exports.ghuun6 = new MessageAttachment('./images/ghuun6.png');
+exports.ghuun7 = new MessageAttachment('./images/ghuun7.png');
 exports.geralt = new MessageAttachment('./images/geralt.png');
