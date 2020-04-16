@@ -154,7 +154,7 @@ function rateCommand(message, strToRate) {
 }
 
 function sendNudes(message) {
-  var randomToken = UTILITIES.getRandomInt(6);
+  var randomToken = UTILITIES.getRandomInt(7);
 
   switch (randomToken) {
     case 0: message.channel.send(MEDIA.ghuun1); break;
@@ -162,9 +162,10 @@ function sendNudes(message) {
     case 2: message.channel.send(MEDIA.ghuun3); break;
     case 3: message.channel.send(MEDIA.ghuun4); break;
     case 4: message.channel.send(MEDIA.ghuun5); break;
-    default: message.channel.send(MEDIA.ghuun6); break;
+    case 5: message.channel.send(MEDIA.ghuun6); break;
+    default: message.channel.send(MEDIA.ghuun7); break;
   }
-  console.log("send nude");
+  console.log("sent nude with token " + randomToken);
 }
 
 function reactWithGhuun(message) {
